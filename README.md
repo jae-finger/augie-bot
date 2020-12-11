@@ -2,6 +2,13 @@
 This is Augie Bot. My attempt at a basic twitter bot about my dog, Augie.
 ## Author: Jonathan Finger
 
+## Tweepy Notes
+A status is a tweet.
+A friendship is a follow-follower relationship.
+A favorite is a like.
+
+
+
 
 # Installation
 TODO instructions for git clone
