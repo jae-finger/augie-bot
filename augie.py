@@ -6,7 +6,13 @@ import os
 import tweepy
 import pandas
 import numpy
+import random
 
+# Custom features
+
+from features.random_bark import randomBark
+
+# Environmental Variables
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -27,3 +33,6 @@ api = tweepy.API(auth)
 public_tweets = api.home_timeline()
 for tweet in public_tweets:
     print(tweet.text)
+
+# Randomly bark
+randomBark(api)
