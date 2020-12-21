@@ -10,6 +10,7 @@ import numpy
 import random
 
 # Import Custom features
+# from features.augie_bark import AugieBark
 from features.augie_bark import AugieBark
 
 # Load Environmental Variables
@@ -22,13 +23,13 @@ consumer_secret = os.getenv("TW_CONS_SEC")
 access_token = os.getenv("TW_ACCESS_TOKEN")
 access_token_secret = os.getenv("TW_ACCESS_TOKEN_SECRET")
 
-# Set authentication
+# Set Authentication
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
-# Instantiate tweepy api
+# Instantiate Tweepy API
 api = tweepy.API(auth)
 
 if __name__ == "__main__":
-    # Randomly bark
-    AugieBark(api)
+    # Tweet a random augie fact
+    # AugieFact()
