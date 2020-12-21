@@ -7,9 +7,6 @@ A status is a tweet.
 A friendship is a follow-follower relationship.
 A favorite is a like.
 
-
-
-
 # Installation
 TODO instructions for git clone
 

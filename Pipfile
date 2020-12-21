@@ -10,6 +10,7 @@ pandas = "*"
 tweepy = "*"
 numpy = "*"
 python-dotenv = "*"
+autopep8 = "*"
 
 [requires]
 python_version = "3.9"

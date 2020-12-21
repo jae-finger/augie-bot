@@ -10,7 +10,7 @@ import random
 
 # Custom features
 
-from features.random_bark import randomBark
+from features.augie_bark import AugieBark
 
 # Environmental Variables
 from dotenv import load_dotenv
@@ -34,5 +34,9 @@ public_tweets = api.home_timeline()
 for tweet in public_tweets:
     print(tweet.text)
 
+
+if __name__ == "__main__":
+    tweet_quote()
+
 # Randomly bark
-randomBark(api)
+AugieBark(api)
