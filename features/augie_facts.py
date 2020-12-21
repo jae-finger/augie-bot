@@ -4,6 +4,12 @@ import tweepy
 
 
 def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
+    """
+    Tweets a random augie fact.
+    """
+    # Set interval
+    interval = 60 * 60 * 24
+
     # Set Authentication
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
@@ -23,4 +29,17 @@ def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
         'My best friends are Cosmo and Siri.'
     ]
 
-    print(augie_facts[random.randint(0, len(augie_facts)-1)])
+    interval = 4
+
+    if interval == 4:
+        print('Getting a random fact...')
+        rand_fact = augie_facts[random.randint(0, len(augie_facts)-1)]
+        api.update_status(rand_fact)
+        # time.sleep(interval)
+        # print(rand_fact)
+
+    # while True:
+    # print('Getting a random fact...')
+    # rand_fact = augie_facts[random.randint(0, len(augie_facts)-1)]
+    # api.update_status(rand_fact)
+    # time.sleep(interval)
