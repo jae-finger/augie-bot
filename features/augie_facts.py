@@ -22,7 +22,6 @@ def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
         'Hello -- my name is Augie the doggy.',
         'I am an apricot, purebred miniature poodle.',
         'My favorite toy is my stuffed sheep.',
-        'I am six months old!',
         'My favorite treats are my bison burgs.',
         "My nickname is 'poof head'.",
         'I enjoy going to obedience class each week.',
