@@ -39,6 +39,7 @@ def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
     if interval == 4:
         print('Getting a random fact...')
         rand_fact = augie_facts[random.randint(0, len(augie_facts)-1)]
+        print(f'Attempting to tweet fact # {len(augie_facts)-1}')
         api.update_status(rand_fact)
         # time.sleep(interval)
         # print(rand_fact)
