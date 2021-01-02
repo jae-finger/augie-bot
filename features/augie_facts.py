@@ -30,7 +30,9 @@ def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
         'I spend most of my days sleeping on the couch.',
         'My favorite treats are bison burgers.',
         'I prefer winter over summer; walks are so much cooler then.',
-        'For some reason, everybody thinks I am a goldendoodle.'
+        'For some reason, everybody thinks I am a goldendoodle.',
+        'I know sit, down, stay, come, shake, high-five, and more...',
+        'I enjoy going to obedience class each week!'
     ]
 
     interval = 4
