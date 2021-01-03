@@ -32,7 +32,8 @@ def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
         'I prefer winter over summer; walks are so much cooler then.',
         'For some reason, everybody thinks I am a goldendoodle.',
         'I know sit, down, stay, come, shake, high-five, and more...',
-        'I enjoy going to obedience class each week!'
+        'I enjoy going to obedience class each week!',
+        'I am owned and maintained by: @j_a_e_f <3'
     ]
 
     interval = 4
