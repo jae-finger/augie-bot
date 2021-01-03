@@ -40,7 +40,7 @@ def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
         'I am beloved by @allie_rae_muses .',
         'Sometimes, people stop their cars to tell me how cute I am.',
         'What personality do I have? I just want everyone to love me.',
-        
+        'My favorite food: anything with sweet potato!!'
 
 
     ]
