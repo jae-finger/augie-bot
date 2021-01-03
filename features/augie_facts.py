@@ -36,7 +36,8 @@ def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
         'I am owned and maintained by: @j_a_e_f <3',
         "I like to bark when I do tricks -- sometimes I'm extra spicy.",
         'I live outside Chicago, Illinois.',
-        'I was born on June 10th, 2020 on a farm in central Illinois.'
+        'I was born on June 10th, 2020 on a farm in central Illinois.',
+        'I am beloved by @allie_rae_muses .'
 
     ]
 
