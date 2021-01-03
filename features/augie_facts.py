@@ -39,8 +39,9 @@ def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
         'I was born on June 10th, 2020 on a farm in central Illinois.',
         'I am beloved by @allie_rae_muses .',
         'Sometimes, people stop their cars to tell me how cute I am.',
-        'I just want everyone to love me. Can you blame me?',
+        'What personality do I have? I just want everyone to love me.',
         
+
 
     ]
 
