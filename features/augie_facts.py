@@ -44,8 +44,6 @@ def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
         "When my hair gets too long, it covers my eyes and I can't see!",
         "I like to play with my toys so violently that I often damage the floor.",
         "When I get really excited I squeeeeeeeeaaak~"
-
-
     ]
 
     interval = 4
