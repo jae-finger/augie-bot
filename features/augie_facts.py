@@ -41,7 +41,9 @@ def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
         'Sometimes, people stop their cars to tell me how cute I am.',
         'What personality do I have? I just want everyone to love me.',
         'My favorite food: anything with sweet potato!!',
-        "When my hair gets too long, it covers my eyes and I can't see!"
+        "When my hair gets too long, it covers my eyes and I can't see!",
+        "I like to play with my toys so violently that I often damage the floor.",
+        "When I get really excited I squeeeeeeeeaaak~"
 
 
     ]
