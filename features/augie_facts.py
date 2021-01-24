@@ -51,7 +51,8 @@ def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
         'My favorite food: anything with sweet potato!!',
         "When my hair gets too long, it covers my eyes and I can't see!",
         "I like to play with my toys so violently that I often damage the floor.",
-        "When I get really excited I squeeeeeeeeaaak~"
+        "When I get really excited I squeeeeeeeeaaak~",
+        "My worst nightmare is having to go to the groomer :(."
     ]
 
     interval = 4
