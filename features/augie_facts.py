@@ -1,15 +1,23 @@
 # Import packages
 import random
 import tweepy
+import os
+
+# Load Environmental Variables
+from dotenv import load_dotenv
+load_dotenv()
+
+# Create credentials from environmental variables
+consumer_key = os.getenv("TW_CONS_KEY")
+consumer_secret = os.getenv("TW_CONS_SEC")
+access_token = os.getenv("TW_ACCESS_TOKEN")
+access_token_secret = os.getenv("TW_ACCESS_TOKEN_SECRET")
 
 
 def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
     """
     Tweets a random augie fact.
     """
-    # Set interval
-    interval = 60 * 60 * 24
-
     # Set Authentication
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
@@ -61,3 +69,7 @@ def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
     # rand_fact = augie_facts[random.randint(0, len(augie_facts)-1)]
     # api.update_status(rand_fact)
     # time.sleep(interval)
+
+
+if __name__ == '__main__':
+    AugieFact(consumer_key, consumer_secret, access_token, access_token_secret)
