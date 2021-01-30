@@ -16,14 +16,5 @@ A status is a tweet.
 A friendship is a follow-follower relationship.
 A favorite is a like.
 
-### Flask Usage
-#### Mac:
-```
-FLASK_APP=web_app flask run
-```
 
-#### Windows:
-```
-Export FLASK_APP=hello.py # one time set of environmental variable
-flask run
-```
+
