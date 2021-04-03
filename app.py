@@ -1,7 +1,4 @@
-import tweepy
-import os
 from flask import Flask
-from features.augie_fact import AugieFact
 
 # Load Environmental Variables
 from dotenv import load_dotenv

@@ -7,13 +7,12 @@ import time
 # Load Environmental Variables
 from dotenv import load_dotenv
 
-load_dotenv()
-
-
 def AugieFact():
     """
     Tweets a random augie fact.
     """
+
+    load_dotenv()
 
     # Set desired time interval
     interval = 86400  # seconds in 24 hours
