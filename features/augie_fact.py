@@ -7,17 +7,18 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-# Create credentials from environmental variables
-consumer_key = os.getenv("TW_CONS_KEY")
-consumer_secret = os.getenv("TW_CONS_SEC")
-access_token = os.getenv("TW_ACCESS_TOKEN")
-access_token_secret = os.getenv("TW_ACCESS_TOKEN_SECRET")
 
 
-def AugieFact(consumer_key, consumer_secret, access_token, access_token_secret):
+def AugieFact():
     """
     Tweets a random augie fact.
     """
+    # Create credentials from environmental variables
+    consumer_key = os.getenv("TW_CONS_KEY")
+    consumer_secret = os.getenv("TW_CONS_SEC")
+    access_token = os.getenv("TW_ACCESS_TOKEN")
+    access_token_secret = os.getenv("TW_ACCESS_TOKEN_SECRET")
+
     # Set Authentication
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
