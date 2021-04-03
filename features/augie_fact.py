@@ -53,7 +53,9 @@ def AugieFact():
         "When my hair gets too long, it covers my eyes and I can't see!",
         "I like to play with my toys so violently that I often damage the floor.",
         "When I get really excited I squeeeeeeeeaaak~",
-        "My worst nightmare is having to go to the groomer :(."
+        "My worst nightmare is having to go to the groomer :(.",
+        "I have some low-IQ back legs.",
+        "Maybe someday I'll get a chance to dog agility like the ones on TV..."
     ]
 
     interval = 4
