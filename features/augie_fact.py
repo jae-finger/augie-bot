@@ -2,17 +2,22 @@
 import random
 import tweepy
 import os
+import time
 
 # Load Environmental Variables
 from dotenv import load_dotenv
-load_dotenv()
 
+load_dotenv()
 
 
 def AugieFact():
     """
     Tweets a random augie fact.
     """
+
+    # Set desired time interval
+    interval = 86400  # seconds in 24 hours
+
     # Create credentials from environmental variables
     consumer_key = os.getenv("TW_CONS_KEY")
     consumer_secret = os.getenv("TW_CONS_SEC")
@@ -58,22 +63,13 @@ def AugieFact():
         "Maybe someday I'll get a chance to dog agility like the ones on TV..."
     ]
 
-    interval = 4
-
-    if interval == 4:
+    while True:
         print('Getting a random fact...')
-        rand_fact = augie_facts[random.randint(0, len(augie_facts)-1)]
-        print(f'Attempting to tweet fact # {len(augie_facts)-1}')
+        rand_fact = augie_facts[random.randint(0, len(augie_facts) - 1)]
+        print(f'Attempting to tweet fact # {len(augie_facts) - 1}')
         api.update_status(rand_fact)
-        # time.sleep(interval)
-        # print(rand_fact)
-
-    # while True:
-    # print('Getting a random fact...')
-    # rand_fact = augie_facts[random.randint(0, len(augie_facts)-1)]
-    # api.update_status(rand_fact)
-    # time.sleep(interval)
+        time.sleep(interval)
 
 
 if __name__ == '__main__':
-    AugieFact(consumer_key, consumer_secret, access_token, access_token_secret)
+    AugieFact()
