@@ -46,7 +46,7 @@ def AugieFact():
         'For some reason, everybody thinks I am a goldendoodle.',
         'I know sit, down, stay, come, shake, high-five, and more...',
         'I enjoy going to obedience class each week!',
-        'I am owned and maintained by: @j_a_e_f <3',
+        'I am owned and maintained by: @datakage <3',
         "I like to bark when I do tricks -- sometimes I'm extra spicy.",
         'I live outside Chicago, Illinois.',
         'I was born on June 10th, 2020 on a farm in central Illinois.',
