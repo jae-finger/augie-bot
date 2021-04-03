@@ -1,2 +1,2 @@
-web: python app.py
+web: gunicorn "web_app:create_app()"
 worker: python augie-bot.py
