@@ -2,26 +2,22 @@
 ## Author: Jonathan Finger
 This is AugieBot. My attempt at a basic [twitter](https://twitter.com/AugietheDog) bot about my dog, Augie.
 
-AugieBot is built using the tweepy package (and others) in python. As of 1/19/2021, AugieBot is still very under construction and has limited capabilities.
+AugieBot is built using the tweepy package and flask, primarily. As of 4/8/21, AugieBot is still under construction and has limited capabilities.
 
-### __Current Version (01/21)__
-+ A random Augie-Fact is tweeted out when `augie_facts.py` is run. 
-+ It can also bark, I guess.
-+ The owner deal is blank... for now.
+# __Current Version (04/21)__
+    + The current iteration is deployed on my free heroku account [here](https://augiebot.herokuapp.com/).
+    + If it is has been at least 24 hours since the last Augie fact, then it will tweet a random fact.
+    + Still some issues: can't control if a fact has been tweeted about lately, nothing to display on the web-server side, and the app has to be open on heroku (not asleep) to work.
 
-
-## Misc.
-### A Few Tweepy Notes
-A status is a tweet.
-A friendship is a follow-follower relationship.
-A favorite is a like.
-
-
-
+# Misc.
 ## Stack
 1. Python 3.9
 2. Tweepy Package
-3. FastAPI
+3. Flask
 
-# Use
-`uvicorn main:app --reload`
+# To Do:
+    - Address issues
+    - Add dashboard part
+    - Add more Augie facts when I'm less depressed about his latest haircut
+    - Think of a way/how/why to make it bark again
+    - Continue rewriting this ReadMe with installation and use instructions
