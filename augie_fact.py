@@ -59,7 +59,8 @@ def AugieFact():
         "When I get really excited I squeeeeeeeeaaak~",
         "My worst nightmare is having to go to the groomer :(.",
         "I have some low-IQ back legs.",
-        "Maybe someday I'll get a chance to dog agility like the ones on TV..."
+        "Maybe someday I'll get a chance to dog agility like the ones on TV...",
+        "When my hair isn't brushed, it gets matted, and then the groomer has to shave it off T_T."
     ]
 
     while True:
