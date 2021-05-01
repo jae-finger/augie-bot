@@ -60,7 +60,8 @@ def AugieFact():
         "My worst nightmare is having to go to the groomer :(.",
         "I have some low-IQ back legs.",
         "Maybe someday I'll get a chance to dog agility like the ones on TV...",
-        "When my hair isn't brushed, it gets matted, and then the groomer has to shave it off T_T."
+        "When my hair isn't brushed, it gets matted, and then the groomer has to shave it off T_T.",
+        "I love it when someone puts cooked pumpkin on my food!"
     ]
 
     while True:
