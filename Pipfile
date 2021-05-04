@@ -30,6 +30,7 @@ tweepy = "==3.10.0"
 urllib3 = "==1.26.4"
 Werkzeug = "==1.0.1"
 dash = "*"
+flask-login = "*"
 
 [dev-packages]
 
