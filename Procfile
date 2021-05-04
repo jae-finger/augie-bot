@@ -1,1 +1,1 @@
-web: gunicorn "app:create_app()"
+web: gunicorn "dashapp:create_app()"
